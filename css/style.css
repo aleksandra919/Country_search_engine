@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Pacifico');
+
+body {
+    background-image: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") ;
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #6E88E0;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+}
+
+.container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;top: 50%;
+}
+
+.title {
+    margin: 30px;
+    color: #7D94E0;
+    font-family: 'Pacifico', cursive;
+}
+
+#countryNameInput {
+    width: 50%;
+    border: 3px solid #FFDED9;
+    padding: 10px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    background-color: #A7FFF1;
+    margin-bottom: 8px;
+}
+
+#searchBtn {
+    width: 90px;
+    height: 50px;
+    border: 3px solid #FFC1D9;
+    background: #A7FFF1;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #7D94E0;
+    font-weight: bold;
+}
+
